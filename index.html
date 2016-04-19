@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Londrina+Outline' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Londrina+Solid' rel='stylesheet' type='text/css'>
+    <!--<link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>-->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>JMLDesigns Portfolio</title>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<!-- This is my navigation-->
+    <header> <!--
+      <nav class="fixed-nav-bar"> -->
+            <div class="wrapper">
+                <h1>JMLDesigns<span class="color">.</span></h1>
+                <nav>
+                    <div style="font-family: 'Londrina Solid', cursive;">
+                      <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#get-in-touch">Get in Touch</a></li>
+                      </ul>
+                    </div>
+                </nav>
+            </div>
+      </nav>
+    </header>
+<!-- End of the navigation-->
+<div id="page1"> <!-- Home page -->
+  <a id="Home" class="smooth"></a>
+    <div id="oliver-nhi">
+        	<div class="wrapper">
+        		      <h2><strong>Hello, I'm Jason</strong><br/>AN ASPIRING WEB DEVELOPER.</h2>
+                  <h4>I'm a self taught web developer whoes learning to become a kick ass coder!</h4>
+
+    </div>
+</div>
+<!--Home page end-->
+
+  <!--lets comeback-->
+<div id="page2">
+  <a id="portfolio" class="smooth"></a>
+<div id="features">
+	  <div class="wrapper">
+            <ul>
+                <article>
+                   <h3>Portfolio</h3>
+                </article>
+
+              <!--lets comeback-->
+
+  			              <li class="feature-2">
+  				                  <h4>Working Progress</h4>
+  				                  <p>Currently working on some projects. Please stay tune.</p>
+  			              </li>
+
+                      <li class="feature-2">
+  				                  <h4>Working Progress</h4>
+  				                  <p>Currently working on some projects. Please stay tune.</p>
+  			              </li>
+
+                      <li class="feature-2">
+  				                  <h4>Working Progress</h4>
+  				                  <p>Currently working on some projects. Please stay tune.</p>
+  			              </li>
+
+
+
+			                <div class="clear"></div>
+		          </ul>
+	  </div>
+</div>
+</div>
+
+<div id="page3">
+  <a id="get-in-touch" class="smooth"></a>
+<div id="cta">
+        	<div class="wrapper">
+                      		<h3>Heard Enough?</h3>
+                      		<a href="#" class="button-2">Let's Get Started</a>
+        	</div>
+</div>
+</div>
+
+<footer>
+        	<div class="wrapper">
+        	<div id="footer-info">
+                    			<p>Copyright 2016 JMLDesigns. Designed and Developed by JMLDesigns.com. All rights reserved.</p>
+                    			<p><a href="#">Terms of Service</a> I <a href="#">Privacy</a></p>
+        	</div>
+        	<div id="footer-links">
+                  			<ul>
+                  				<li><a href="#">About Me</a></li>
+                  			</ul>
+                        <ul>
+                  				<li><a href="#">Resume</a></li>
+                  			</ul>
+                        <ul>
+                  				<li><a href="#">Contact</a></li>
+                  			</ul>
+
+          </div>
+        	<div class="clear"></div>
+	</div>
+</footer>
+<!-- Thanks to Karl Swedberg for the jquery code.-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+<script>
+$('.smooth').on('click', function() {
+    $.smoothScroll({
+        scrollElement: $('body'),
+        scrollTarget: '#' + this.id
+      });
+
+    return false;
+});
+</script>
+
+</body>
+</html>
